@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preload" href="fonts\\Merchant-Light.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap"
         rel="stylesheet" />
     <!--STYLESHEET-->
     <link rel="icon" href="images\V.jpg" type="image/x-icon" />
+    <link rel="preload" href="style.css" as="style" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preload" href="index.js" as="script" />
     <title>@vamzzisme | Portfolio</title>
 </head>
 
@@ -113,7 +116,7 @@
                     </div>
                 </div>
                 <div class="right">
-                    <img src="images\dp.jpg" alt="Profile Photo" class="dp" />
+                    <v src="images\dp.jpg" alt="Profile Photo" class="dp" loading="lazy"/>
                 </div>
             </div>
             <div id="cta"></div>
@@ -127,10 +130,10 @@
             <div class="vid">
                 <span>COMING SOON</span>
             </div>
-            <img src="images\Icons\after-effects.png" data-speed="-1" alt="" class="sa-icons" id="ae" />
-            <img src="images\Icons\illustrator.png" data-speed="-1" alt="" class="sa-icons" id="ai" />
-            <img src="images\Icons\photoshop.png" data-speed="2" alt="" class="sa-icons" id="ph" />
-            <img src="images\Icons\premiere-pro.png" data-speed="2" alt="" class="sa-icons" id="pp" />
+            <img src="images\Icons\after-effects.png" data-speed="-1" alt="" class="sa-icons" id="ae" loading="lazy"/>
+            <img src="images\Icons\illustrator.png" data-speed="-1" alt="" class="sa-icons" id="ai" loading="lazy"/>
+            <img src="images\Icons\photoshop.png" data-speed="2" alt="" class="sa-icons" id="ph" loading="lazy"/>
+            <img src="images\Icons\premiere-pro.png" data-speed="2" alt="" class="sa-icons" id="pp" loading="lazy"/>
         </div>
         <svg viewBox="0 0 1440 600" fill="none" data-speed="0.5" class="sa-vec">
             <path
@@ -175,7 +178,7 @@
                                 <div class="card edi01">
                                     <div class="work-container">
                                         <a href="https://www.playbook.com/thevamzzisme/GXfL5HbzcT6CZUgW8pP8bKdv?assetToken=fK8yKiYQ3NJZmgXBdLwTgDAp" target="_blank">
-                                        <img src="images\Backend\Apple iPhone XR.png" alt="Apple iPhone XR">
+                                        <img src="images\Backend\Apple iPhone XR.png" alt="Apple iPhone XR" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -221,7 +224,7 @@
                                 <div class="card edi02">
                                     <div class="work-container">
                                         <a href="https://www.playbook.com/thevamzzisme/GXfL5HbzcT6CZUgW8pP8bKdv?assetToken=yRcvsiLYkZy6rJrkCD8imYi3" target="_blank">
-                                            <img src="images\Backend\Amazon Freedom Sale.png" alt="Amazon Freedom Sale Ad">
+                                            <img src="images\Backend\Amazon Freedom Sale.png" alt="Amazon Freedom Sale Ad" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -267,7 +270,7 @@
                                 <div class="card edi03">
                                     <div class="work-container">
                                         <a href="https://www.playbook.com/thevamzzisme/GXfL5HbzcT6CZUgW8pP8bKdv?assetToken=DKHPB6N2ZV8MpnJjyqZfUTKv" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\Harry Potter Intro Animation.png" alt="Harry Potter Intro">
+                                            <img src="images\Backend\Harry Potter Intro Animation.png" alt="Harry Potter Intro" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -313,7 +316,7 @@
                                 <div class="card edi04">
                                     <div class="work-container">
                                         <a href="https://www.playbook.com/thevamzzisme/GXfL5HbzcT6CZUgW8pP8bKdv?assetToken=tPBXiLpNYyDEgq6NaHZSFuDX" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\Trailer.jpg" alt="Captain Marvel Trailer">
+                                            <img src="images\Backend\Trailer.jpg" alt="Captain Marvel Trailer" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -359,7 +362,7 @@
                                 <div class="card edi05">
                                     <div class="work-container">
                                         <a href="https://www.playbook.com/s/thevamzzisme/5W2F44sjbJ3kt2yqLPBLwrjg" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\Posters & Magazines.png" alt="Posters & Magazines">
+                                            <img src="images\Backend\Posters & Magazines.png" alt="Posters & Magazines" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -405,7 +408,7 @@
                                 <div class="card edi06">
                                     <div class="work-container">
                                         <a href="https://www.playbook.com/s/thevamzzisme/RFNDbafBhFBByuNNmGmzbtY4" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\Cards & Invitations.png" alt="Cards & Invitations">
+                                            <img src="images\Backend\Cards & Invitations.png" alt="Cards & Invitations" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -455,7 +458,7 @@
                                 <div class="card dev01">
                                     <div class="work-container">
                                         <a href="https://github.com/vamzzisme/BBMS-v2.0-Online-" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\BBMS v2.0.png" alt="Blood Bank Management System v2.0">
+                                            <img src="images\Backend\BBMS v2.0.png" alt="Blood Bank Management System v2.0" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -501,7 +504,7 @@
                                 <div class="card dev02">
                                     <div class="work-container">
                                         <a href="https://github.com/vamzzisme/Websites/tree/main/One%20Color%20UI%20Portfolio%20Website" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\My Portfolio.png" alt="My Website">
+                                            <img src="images\Backend\My Portfolio.png" alt="My Website" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -547,7 +550,7 @@
                                 <div class="card dev03">
                                     <div class="work-container">
                                         <a href="https://github.com/vamzzisme/Expense-Master" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\Expense Tracker.png" alt="Expense Tracker">
+                                            <img src="images\Backend\Expense Tracker.png" alt="Expense Tracker" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -593,7 +596,7 @@
                                 <div class="card dev04">
                                     <div class="work-container">
                                         <a href="https://github.com/vamzzisme/Python-Games/tree/main/Zombie%20Zone" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\Zombio Zone.png" alt="Zombio Zone Game">
+                                            <img src="images\Backend\Zombio Zone.png" alt="Zombio Zone Game" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -638,7 +641,7 @@
                                 <div class="card dev05">
                                     <div class="work-container">
                                         <a href="https://github.com/vamzzisme/BBMS-v1.0-Offline-" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\BBMS v1.0.png" alt="Blood Bank Management System v1.0">
+                                            <img src="images\Backend\BBMS v1.0.png" alt="Blood Bank Management System v1.0" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -684,7 +687,7 @@
                                 <div class="card dev06">
                                     <div class="work-container">
                                         <a href="https://github.com/vamzzisme/Python-Games/tree/main/Jumpy" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\Jumpy.png" alt="Jumpy Game">
+                                            <img src="images\Backend\Jumpy.png" alt="Jumpy Game" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -733,7 +736,7 @@
                                 <div class="card des01">
                                     <div class="work-container">
                                         <a href="https://www.playbook.com/s/thevamzzisme/veRJdGmBtqP3y9584ckSpcBD" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\My Portfolio.png" alt="My Current Website">
+                                            <img src="images\Backend\My Portfolio.png" alt="My Current Website" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -778,7 +781,7 @@
                                 <div class="card des02">
                                     <div class="work-container">
                                         <a href="https://www.playbook.com/s/thevamzzisme/DCwADdvMKcEQeo46eqCViNbw" target="_blank" rel="noopener noreferrer">
-                                        <img src="images\Backend\Expense Tracker.png" alt="Expense Tracker" />
+                                        <img src="images\Backend\Expense Tracker.png" alt="Expense Tracker" loading="lazy"/>
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -823,7 +826,7 @@
                                 <div class="card des03">
                                     <div class="work-container">
                                         <a href="https://www.playbook.com/s/thevamzzisme/EsjXTEZwL58oKGeHqYxEQvdk" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\BBMS v2.0.png" alt="Blood Bank Management System v2.0" />
+                                            <img src="images\Backend\BBMS v2.0.png" alt="Blood Bank Management System v2.0" loading="lazy" />
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -868,7 +871,7 @@
                                 <div class="card des04">
                                     <div class="work-container">
                                         <a href="https://www.playbook.com/s/thevamzzisme/jSYg7JnqxXu7BWF52P5dkfnN" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\My Portfolio 1.png" alt="My Old Website">
+                                            <img src="images\Backend\My Portfolio 1.png" alt="My Old Website" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -913,7 +916,7 @@
                                 <div class="card des05">
                                     <div class="work-container">
                                         <a href="https://www.playbook.com/s/thevamzzisme/5W2F44sjbJ3kt2yqLPBLwrjg" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\Cards & Invitations.png" alt="Cards & Invitations">
+                                            <img src="images\Backend\Cards & Invitations.png" alt="Cards & Invitations" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -959,7 +962,7 @@
                                 <div class="card des06">
                                     <div class="work-container">
                                         <a href="https://www.playbook.com/s/thevamzzisme/k9vMCnKxgVjNEipoootJetAc" target="_blank" rel="noopener noreferrer">
-                                            <img src="images\Backend\Instagram Posts.png" alt="Instagaram  Post">
+                                            <img src="images\Backend\Instagram Posts.png" alt="Instagaram  Post" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="work-details">
@@ -2127,7 +2130,7 @@
                             the leverage to explore more. <span>SO...</span>
                         </p>
                         <div class="illus">
-                            <img src="images\IITKGP.png" alt="IIT Kharagpur">
+                            <img src="images\IITKGP.png" alt="IIT Kharagpur" loading="lazy">
                         </div>
                     </div>
                 </li>
@@ -2473,30 +2476,30 @@
                 </h1>
                 <ul>
                     <a href="https://www.instagram.com/vamzzisme" title="instagram.com" target="_blank">
-                        <img src="images\Icons\instagram.svg" alt="Instagram">
+                        <img src="images\Icons\instagram.svg" alt="Instagram" loading="lazy">
                     </a>
                     <a href="https://github.com/vamzzisme" title="github.com" target="_blank">
-                        <img src="images\Icons\github.svg" alt="Github">
+                        <img src="images\Icons\github.svg" alt="Github" loading="lazy">
                     </a>
                     <a href="https://www.linkedin.com/in/p-vamshi-krishna-69268b293" title="linkedIn.com"
                         target="_blank">
-                        <img src="images\Icons\linked-in.svg" alt="LinkedIn">
+                        <img src="images\Icons\linked-in.svg" alt="LinkedIn" loading="lazy">
                     </a>
                     <a href="https://www.facebook.com/profile.php?id=100094753728034" title="facebook.com"
                         target="_blank">
-                        <img src="images\Icons\facebook.svg" alt="Facebook">
+                        <img src="images\Icons\facebook.svg" alt="Facebook" loading="lazy">
                     </a>
                     <a href="https://x.com/vamzzisme" title="x.com" target="_blank">
-                        <img src="images\Icons\twitter.svg" alt="X">
+                        <img src="images\Icons\twitter.svg" alt="X" loading="lazy">
                     </a>
                     <a href="https://www.fiverr.com/vamzzisme?up_rollout=true" title="fiverr.com" target="_blank">
-                        <img src="images\Icons\fiverr.svg" alt="Fiverr">
+                        <img src="images\Icons\fiverr.svg" alt="Fiverr" loading="lazy">
                     </a>
                     <a href="https://www.upwork.com/freelancers/~01e1c967fcf188d4bb" title="upwork.com" target="_blank">
-                        <img src="images\Icons\upwork.svg" alt="Upwork">
+                        <img src="images\Icons\upwork.svg" alt="Upwork" loading="lazy">
                     </a>
                     <a href="https://www.freelancer.in/u/vamzzisme" title="freelancer.in" target="_blank">
-                        <img src="images\Icons\freelancer.svg" alt="Freelancer">
+                        <img src="images\Icons\freelancer.svg" alt="Freelancer" loading="lazy">
                     </a>
                 </ul>
             </div>
@@ -2541,31 +2544,31 @@
                     <div class="gal-indicator"></div>
                     <div class="gallery">
                         <div class="gallery-item">
-                            <img src="images\Gallery\IMG-20240612-WA0014.jpg" alt="A Plant with Spider Web">
+                            <img src="images\Gallery\IMG-20240612-WA0014.jpg" alt="A Plant with Spider Web" loading="lazy">
                         </div>
                         <div class="gallery-item">
-                            <img src="images\Gallery\IMG-20240612-WA0015.jpg" alt="Banana Tree">
+                            <img src="images\Gallery\IMG-20240612-WA0015.jpg" alt="Banana Tree" loading="lazy">
                         </div>
                         <div class="gallery-item">
-                            <img src="images\Gallery\IMG-20240612-WA0012.jpg" alt="Roaring Sky">
+                            <img src="images\Gallery\IMG-20240612-WA0012.jpg" alt="Roaring Sky" loading="lazy">
                         </div>
                         <div class="gallery-item">
-                            <img src="images\Gallery\IMG-20240612-WA0018.jpg" alt="Tree from Bottom POV">
+                            <img src="images\Gallery\IMG-20240612-WA0018.jpg" alt="Tree from Bottom POV" loading="lazy">
                         </div>
                         <div class="gallery-item">
-                            <img src="images\Gallery\IMG-20240612-WA0020.jpg" alt="Honey Bee">
+                            <img src="images\Gallery\IMG-20240612-WA0020.jpg" alt="Honey Bee" loading="lazy">
                         </div>
                         <div class="gallery-item">
-                            <img src="images\Gallery\IMG-20240612-WA0016.jpg" alt="Symmetric Building">
+                            <img src="images\Gallery\IMG-20240612-WA0016.jpg" alt="Symmetric Building" loading="lazy">
                         </div>
                         <div class="gallery-item">
-                            <img src="images\Gallery\IMG-20240612-WA0013.jpg" alt="Plant">
+                            <img src="images\Gallery\IMG-20240612-WA0013.jpg" alt="Plant" loading="lazy">
                         </div>
                         <div class="gallery-item">
-                            <img src="images\Gallery\IMG-20240612-WA0019.jpg" alt="Diya">
+                            <img src="images\Gallery\IMG-20240612-WA0019.jpg" alt="Diya" loading="lazy">
                         </div>
                         <div class="gallery-item">
-                            <img src="images\Gallery\IMG-20240612-WA0011.jpg" alt="Crackers">
+                            <img src="images\Gallery\IMG-20240612-WA0011.jpg" alt="Crackers" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -2579,24 +2582,24 @@
                         <h4>Editing</h4>
                         <div class="s-scroll">
                             <div class="scroller">
-                                <img src="images\Icons\photoshop.png" alt="Photoshop">
-                                <img src="images\Icons\photoshop-lightroom.png" alt="Lightroom">
-                                <img src="images\Icons\illustrator.png" alt="Illustrator">
-                                <img src="images\Icons\luminar neo.png" alt="Luminar Neo">
-                                <img src="images\Icons\premiere-pro.png" alt="Premiere Pro">
-                                <img src="images\Icons\after-effects.png" alt="After Effects">
-                                <img src="images\Icons\mocha.svg" alt="Mocha">
-                                <img src="images\Icons\adobe-audition.png" alt="Audition">
+                                <img src="images\Icons\photoshop.png" alt="Photoshop"  loading="lazy">
+                                <img src="images\Icons\photoshop-lightroom.png" alt="Lightroom"  loading="lazy">
+                                <img src="images\Icons\illustrator.png" alt="Illustrator"  loading="lazy">
+                                <img src="images\Icons\luminar neo.png" alt="Luminar Neo"  loading="lazy">
+                                <img src="images\Icons\premiere-pro.png" alt="Premiere Pro"  loading="lazy">
+                                <img src="images\Icons\after-effects.png" alt="After Effects"  loading="lazy">
+                                <img src="images\Icons\mocha.svg" alt="Mocha"  loading="lazy">
+                                <img src="images\Icons\adobe-audition.png" alt="Audition"  loading="lazy">
                             </div>
                             <div class="scroller">
-                                <img src="images\Icons\photoshop.png" alt="Photoshop" >
-                                <img src="images\Icons\photoshop-lightroom.png" alt="Lightroom">
-                                <img src="images\Icons\illustrator.png" alt="Illustrator">
-                                <img src="images\Icons\luminar neo.png" alt="Luminar Neo">
-                                <img src="images\Icons\premiere-pro.png" alt="Premiere Pro">
-                                <img src="images\Icons\after-effects.png" alt="After Effects">
-                                <img src="images\Icons\mocha.svg" alt="Mocha">
-                                <img src="images\Icons\adobe-audition.png" alt="Audition">
+                                <img src="images\Icons\photoshop.png" alt="Photoshop"  loading="lazy" >
+                                <img src="images\Icons\photoshop-lightroom.png" alt="Lightroom"  loading="lazy">
+                                <img src="images\Icons\illustrator.png" alt="Illustrator " loading="lazy">
+                                <img src="images\Icons\luminar neo.png" alt="Luminar Neo"  loading="lazy">
+                                <img src="images\Icons\premiere-pro.png" alt="Premiere Pro"  loading="lazy">
+                                <img src="images\Icons\after-effects.png" alt="After Effects"  loading="lazy">
+                                <img src="images\Icons\mocha.svg" alt="Mocha"  loading="lazy">
+                                <img src="images\Icons\adobe-audition.png" alt="Audition"  loading="lazy">
                             </div>
                         </div>
                     </div>
@@ -2604,19 +2607,19 @@
                         <h4>Designing</h4>
                         <div class="s-scroll">
                             <div class="scroller">
-                                <img src="images\Icons\xd.png" alt="Xd">
-                                <img src="images\Icons\Figma.png" alt="Figma">
-                                <img src="images\Icons\canva.png" alt="Canva">
+                                <img src="images\Icons\xd.png" alt="Xd" loading="lazy">
+                                <img src="images\Icons\Figma.png" alt="Figma" loading="lazy">
+                                <img src="images\Icons\canva.png" alt="Canva" loading="lazy">
                             </div>
                             <div class="scroller">
-                                <img src="images\Icons\xd.png" alt="Xd">
-                                <img src="images\Icons\Figma.png" alt="Figma">
-                                <img src="images\Icons\canva.png" alt="Canva">
+                                <img src="images\Icons\xd.png" alt="Xd" loading="lazy">
+                                <img src="images\Icons\Figma.png" alt="Figma" loading="lazy">
+                                <img src="images\Icons\canva.png" alt="Canva" loading="lazy">
                             </div>
                             <div class="scroller">
-                                <img src="images\Icons\xd.png" alt="Xd">
-                                <img src="images\Icons\Figma.png" alt="Figma">
-                                <img src="images\Icons\canva.png" alt="Canva">
+                                <img src="images\Icons\xd.png" alt="Xd" loading="lazy">
+                                <img src="images\Icons\Figma.png" alt="Figma" loading="lazy">
+                                <img src="images\Icons\canva.png" alt="Canva" loading="lazy">
                             </div>
                         </div>
                     </div>
@@ -2624,40 +2627,40 @@
                         <h4>Development</h4>
                         <div class="s-scroll">
                             <div class="scroller">
-                                <img src="images\Icons\c.svg" alt="C">
-                                <img src="images\Icons\python.png" alt="Python">
-                                <img src="images\Icons\html.png" alt="HTML5">
-                                <img src="images\Icons\css.png" alt="CSS3">
-                                <img src="images\Icons\js.png" alt="JavaScript">
-                                <img src="images\Icons\webflow.png" alt="Webflow">
-                                <img src="images\Icons\framer.svg" alt="Framer">
-                                <img src="images\Icons\mysql.png" alt="MySQL">
-                                <img src="images\Icons\php.png" alt="PHP">
-                                <img src="images\Icons\flutter.png" alt="Flutter">
-                                <img src="images\Icons\dart.png" alt="Dart">
-                                <img src="images\Icons\android-studio.png" alt="Android Studio" >
-                                <img src="images\Icons\pandas.svg" alt="Pandas">
-                                <img src="images\Icons\matplotlib.svg" alt="Matplotlib" >
-                                <img src="images\Icons\scikit-learn.png" alt="Scikit Learn">
-                                <img src="images\Icons\django.png" alt="Django">
+                                <img src="images\Icons\c.svg" alt="C" loading="lazy">
+                                <img src="images\Icons\python.png" alt="Python" loading="lazy">
+                                <img src="images\Icons\html.png" alt="HTML5" loading="lazy">
+                                <img src="images\Icons\css.png" alt="CSS3" loading="lazy">
+                                <img src="images\Icons\js.png" alt="JavaScript" loading="lazy">
+                                <img src="images\Icons\webflow.png" alt="Webflow" loading="lazy">
+                                <img src="images\Icons\framer.svg" alt="Framer" loading="lazy">
+                                <img src="images\Icons\mysql.png" alt="MySQL" loading="lazy">
+                                <img src="images\Icons\php.png" alt="PHP" loading="lazy">
+                                <img src="images\Icons\flutter.png" alt="Flutter" loading="lazy">
+                                <img src="images\Icons\dart.png" alt="Dart" loading="lazy">
+                                <img src="images\Icons\android-studio.png" alt="Android Studio"  loading="lazy">
+                                <img src="images\Icons\pandas.svg" alt="Pandas" loading="lazy">
+                                <img src="images\Icons\matplotlib.svg" alt="Matplotlib"  loading="lazy">
+                                <img src="images\Icons\scikit-learn.png" alt="Scikit Learn" loading="lazy">
+                                <img src="images\Icons\django.png" alt="Django" loading="lazy">
                             </div>
                             <div class="scroller">
-                                <img src="images\Icons\c.svg" alt="C">
-                                <img src="images\Icons\python.png" alt="Python">
-                                <img src="images\Icons\html.png" alt="HTML5">
-                                <img src="images\Icons\css.png" alt="CSS3">
-                                <img src="images\Icons\js.png" alt="JavaScript">
-                                <img src="images\Icons\webflow.png" alt="Webflow">
-                                <img src="images\Icons\framer.svg" alt="Framer">
-                                <img src="images\Icons\mysql.png" alt="MySQL">
-                                <img src="images\Icons\php.png" alt="PHP">
-                                <img src="images\Icons\flutter.png" alt="Flutter">
-                                <img src="images\Icons\dart.png" alt="Dart">
-                                <img src="images\Icons\android-studio.png" alt="Android Studio" >
-                                <img src="images\Icons\pandas.svg" alt="Pandas">
-                                <img src="images\Icons\matplotlib.svg" alt="Matplotlib" >
-                                <img src="images\Icons\scikit-learn.png" alt="Scikit Learn">
-                                <img src="images\Icons\django.png" alt="Django">
+                                <img src="images\Icons\c.svg" alt="C" loading="lazy">
+                                <img src="images\Icons\python.png" alt="Python" loading="lazy">
+                                <img src="images\Icons\html.png" alt="HTML5" loading="lazy">
+                                <img src="images\Icons\css.png" alt="CSS3" loading="lazy">
+                                <img src="images\Icons\js.png" alt="JavaScript" loading="lazy">
+                                <img src="images\Icons\webflow.png" alt="Webflow" loading="lazy">
+                                <img src="images\Icons\framer.svg" alt="Framer" loading="lazy">
+                                <img src="images\Icons\mysql.png" alt="MySQL" loading="lazy">
+                                <img src="images\Icons\php.png" alt="PHP" loading="lazy">
+                                <img src="images\Icons\flutter.png" alt="Flutter" loading="lazy">
+                                <img src="images\Icons\dart.png" alt="Dart" loading="lazy">
+                                <img src="images\Icons\android-studio.png" alt="Android Studio"  loading="lazy">
+                                <img src="images\Icons\pandas.svg" alt="Pandas" loading="lazy">
+                                <img src="images\Icons\matplotlib.svg" alt="Matplotlib"  loading="lazy">
+                                <img src="images\Icons\scikit-learn.png" alt="Scikit Learn" loading="lazy">
+                                <img src="images\Icons\django.png" alt="Django" loading="lazy">
                             </div>
                         </div>
                     </div>
@@ -2665,18 +2668,18 @@
                         <h4>Others</h4>
                         <div class="s-scroll">
                             <div class="scroller">
-                                <img src="images\Icons\power_bi.png" alt="Power BI">
-                                <img src="images\Icons\Notion.png" alt="Notion">
-                                <img src="images\Icons\godot-game-engine.png" alt="Godot Game Engine">
-                                <img src="images\Icons\blender.png" alt="Blender">
-                                <img src="images\Icons\vsc.png" alt="Visual Studio Code">
+                                <img src="images\Icons\power_bi.png" alt="Power BI" loading="lazy">
+                                <img src="images\Icons\Notion.png" alt="Notion" loading="lazy">
+                                <img src="images\Icons\godot-game-engine.png" alt="Godot Game Engine" loading="lazy">
+                                <img src="images\Icons\blender.png" alt="Blender" loading="lazy">
+                                <img src="images\Icons\vsc.png" alt="Visual Studio Code" loading="lazy">
                             </div>
                             <div class="scroller">
-                                <img src="images\Icons\power_bi.png" alt="Power BI">
-                                <img src="images\Icons\Notion.png" alt="Notion">
-                                <img src="images\Icons\godot-game-engine.png" alt="Godot Game Engine">
-                                <img src="images\Icons\blender.png" alt="Blender">
-                                <img src="images\Icons\vsc.png" alt="Visual Studio Code">
+                                <img src="images\Icons\power_bi.png" alt="Power BI" loading="lazy">
+                                <img src="images\Icons\Notion.png" alt="Notion" loading="lazy">
+                                <img src="images\Icons\godot-game-engine.png" alt="Godot Game Engine" loading="lazy">
+                                <img src="images\Icons\blender.png" alt="Blender" loading="lazy">
+                                <img src="images\Icons\vsc.png" alt="Visual Studio Code" loading="lazy">
                             </div>
                         </div>
                     </div>
