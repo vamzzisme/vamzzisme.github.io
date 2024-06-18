@@ -519,6 +519,7 @@ html.lenis body {
 .home #cta {
     bottom: -150px;
     width: 120px;
+    z-index: 3;
 }
 
 /* Short About Style */
